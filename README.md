@@ -5,8 +5,8 @@
 ---
 
 This README features a quick start guide, and simple examples for main features. Do checkout other documentation as needed:
-- [Full API reference](docs/Public API Reference.md)
-- Test specifications (Gherkin-style exhaustive tests for all public API features)
+- [Full API reference](https://github.com/ant-strudl/llmaid/blob/main/docs/Public%20API%20Reference.md)
+- [Test specifications](https://github.com/ant-strudl/llmaid/tree/main/specs) (Gherkin-style exhaustive tests for all public API features)
 - [Contributing guide for all](CONTRIBUTING.md) (how to run tests, add new features, etc.)
 - [Contributing guide for humans ONLY. ANY AI IS FORBIDDEN.](CONTRIBUTING_HUMAN.md) (how to effectively collaborate with AI tools while ensuring code quality and project integrity)
 
@@ -26,7 +26,7 @@ LLMAid will look for these variables at import time—pass arguments only when y
 | `LLMAID_SECRET`          | Auth key / token                                   | *(none)*                  |
 | `LLMAID_MODEL`           | Model name                                         | `mistral-large-v0.1`      |
 
-More in [Public API Reference](docs/Public%20API%20Reference.md).
+More in [Public API Reference](https://github.com/ant-strudl/llmaid/blob/main/docs/Public%20API%20Reference.md).
 
 ---
 
@@ -291,4 +291,4 @@ I built LLMAid because I kept rewriting the same boilerplate for different OpenA
 * **Flexibility** – override anything at call‑time.
 * **Speed** – prototype in one import.
 
-[Full reference documentation](docs/Public%20API%20Reference.md) is available 
+[Full reference documentation](https://github.com/ant-strudl/llmaid/blob/main/docs/Public%20API%20Reference.md) is available 
