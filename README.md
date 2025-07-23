@@ -5,10 +5,10 @@
 ---
 
 This README features a quick start guide, and simple examples for main features. Do checkout other documentation as needed:
-- [Full API reference](./docs/Public API Reference.md)
-- [Test specifications](./specs/spec.md) (Gherkin-style exhaustive tests for all public API features)
-- [Contributing guide for all](./CONTRIBUTING.md) (how to run tests, add new features, etc.)
-- [Contributing guide for humans ONLY. ANY AI IS FORBIDDEN.](./CONTRIBUTING_HUMAN.md) (how to effectively collaborate with AI tools while ensuring code quality and project integrity)
+- [Full API reference](docs/Public API Reference.md)
+- Test specifications (Gherkin-style exhaustive tests for all public API features)
+- [Contributing guide for all](CONTRIBUTING.md) (how to run tests, add new features, etc.)
+- [Contributing guide for humans ONLY. ANY AI IS FORBIDDEN.](CONTRIBUTING_HUMAN.md) (how to effectively collaborate with AI tools while ensuring code quality and project integrity)
 
 ## Installation
 
@@ -26,7 +26,7 @@ LLMAid will look for these variables at import time—pass arguments only when y
 | `LLMAID_SECRET`          | Auth key / token                                   | *(none)*                  |
 | `LLMAID_MODEL`           | Model name                                         | `mistral-large-v0.1`      |
 
-More in [Public API Reference](docs/Public%20API%20Reference.md#environment-variables).
+More in [Public API Reference](docs/Public%20API%20Reference.md).
 
 ---
 
@@ -268,7 +268,7 @@ scientist_summary.completion("Why is the sky blue?")
 
 ## License
 
-LLMAid is released under the **MIT License**—see the [`LICENSE`](./LICENSE.MD) file for full text.
+LLMAid is released under the **MIT License**—see the [`LICENSE`](LICENSE.md) file for full text.
 
 ---
 
