@@ -1,4 +1,4 @@
-![LLMAID](attachments/llmaid.png)
+![LLMAID](https://github.com/ant-strudl/llmaid/blob/main/attachments/llmaid.png?raw=true)
 
 *A zero‑dependency wrapper that turns any OpenAI‑compatible endpoint into a one‑liner.*
 
@@ -277,6 +277,7 @@ LLMAid is released under the **MIT License**—see the [`LICENSE`](LICENSE.md) f
 To build LLMAid for PyPI, run the following commands in the root directory of the project:
 
 ```bash
+rm -rf dist
 .venv/bin/pip install --upgrade build
 .venv/bin/python -m build
 .venv/bin/pip install --upgrade twine

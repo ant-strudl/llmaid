@@ -21,7 +21,7 @@ class LLMAid:
 
     def __init__(
         self,
-        __version__: str = "0.1.0",
+        __version__: str = "0.1.1",
         # Connection parameters
         base_url: Optional[str] = None,
         secret: Optional[str] = None,

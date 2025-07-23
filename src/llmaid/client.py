@@ -49,7 +49,7 @@ class LLMClient:
         # Build headers
         self.headers = {
             "Content-Type": "application/json",
-            "User-Agent": "LLMAid/0.1.0"
+            "User-Agent": "LLMAid/0.1.1"
         }
         if self.secret:
             self.headers["Authorization"] = f"Bearer {self.secret}"
